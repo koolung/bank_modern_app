@@ -61,7 +61,7 @@ const Hero = () => (
       <img
         src={hair2}
         alt="hair"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[100%] h-[100%] relative z-[5] rounded-[70px]"
       />
     </div>
 
