@@ -24,6 +24,9 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import closed from "./close.png";
+import hair from "./hair.png";
+import hair2 from "./hair2.png";
+import hair3 from "./hair3.png";
 
 export {
   airbnb,
@@ -52,4 +55,7 @@ export {
   people02,
   people03,
   closed,
+  hair,
+  hair2,
+  hair3,
 };
