@@ -42,13 +42,14 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we'll handle
-          the money.
+          Tell us the style, <br className="sm:block hidden" /> We'll give you
+          the <br />
+          style you want
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          Master Cosmetologists with over 30 years of experience will help you
+          find the style that suits you the most, so you can walk out the salon
+          with the style want!
         </p>
 
         <Button styles="mt-10" />

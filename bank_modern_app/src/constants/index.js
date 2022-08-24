@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Reliable",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Master Cosmetologists with over 30 years of experience will provide you the best service possible",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: star,
+    title: "Affordable",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We understand hair styling can get costly. We make sure our prices are below the market price",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: star,
+    title: "Quality",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We make sure we provide the service you wanted with the products we offer at a great quality",
   },
 ];
 
@@ -85,21 +85,21 @@ export const feedback = [
   },
 ];
 
-export const stats = [
+export const prices = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "price-1",
+    title: "Men's Haircut",
+    value: "From $15",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "price-2",
+    title: "Women's Haircut",
+    value: "From $20",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "price-3",
+    title: "Permanent Curl",
+    value: "From $80",
   },
 ];
 

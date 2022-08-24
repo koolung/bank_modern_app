@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
+import ContactUsNow from "./ContactUsNow";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -15,8 +15,8 @@ const Hero = () => (
       >
         <img src={discount} alt="discount" className="2-[32px] h-[32px] " />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">20%</span> Discount For{" "}
-          <span className="text-white">1 month</span> Account
+          <span className="text-white">10%</span> Discount For{" "}
+          <span className="text-white">The First</span> Service
         </p>
       </div>
 
@@ -26,12 +26,13 @@ const Hero = () => (
         font-semibold ss:text-[72px] text-[52px] 
         text-white ss:leading-[100px] leading-[75px]"
         >
-          The Next <br className="sm:block hidden" /> {""}
-          <span className="text-gradient">Generation</span>
+          Get The Full
+          <br className="sm:block hidden" /> {""}
+          <span className="text-gradient">Korean Style</span>
         </h1>
 
         <div className="ss:flex hidden md:mr-4 mr-0">
-          <GetStarted />
+          <ContactUsNow />
         </div>
       </div>
 
@@ -40,7 +41,7 @@ const Hero = () => (
       font-semibold ss:text-[68px] text-[52px] 
       text-white ss:leading-[100px] leading-[75px] w-full"
       >
-        Payment Method
+        Experience
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         {" "}
@@ -63,7 +64,7 @@ const Hero = () => (
     </div>
 
     <div className={`ss:hidden ${styles.flexCenter}`}>
-      <GetStarted />
+      <ContactUsNow />
     </div>
   </section>
 );
