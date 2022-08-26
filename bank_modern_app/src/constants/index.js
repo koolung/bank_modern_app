@@ -62,26 +62,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Best experience ever!! Lia is very experienced (she knows Asian hair) friendly and entertaining, I enjoyed the whole time there. Unlike other hairdressers in other hair salons who washed my hair too",
+    name: "Yuqing Cheng",
+    title: "",
+    img: null,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "My son has got a cool hair cut today! He is really happy with that. Besides, Hairdressers were very helpful and welcoming as always.",
+    name: "Jisun Kwak",
+    title: "",
+    img: null,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "I recommend this hair salon. Hair designers are so kind, good skilled and, very nice. The place is really clean and hygiene is also very good!!!",
+    name: "Helen K",
+    title: "",
+    img: null,
   },
 ];
 

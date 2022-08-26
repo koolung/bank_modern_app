@@ -9,19 +9,17 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <div>
-        <img
-          src={closed}
-          alt="logo"
-          className="w-[400px] h-[200px] rounded-[25px]"
-        />
-      </div>
+      <img
+        src={closed}
+        alt="logo"
+        className="w-[400px] h-[200px] rounded-[25px] "
+      />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer hover:text-secondary text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white mr-10`}
           >
