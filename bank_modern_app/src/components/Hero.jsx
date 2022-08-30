@@ -24,9 +24,9 @@ const Hero = () => (
         <h1
           className="flex-1 font-poppins 
         font-semibold ss:text-[72px] text-[52px] 
-        text-white ss:leading-[100px] leading-[75px]"
+        text-primary ss:leading-[100px] leading-[75px]"
         >
-          Get The Full
+          Beaute Lia Hair
           <br className="sm:block hidden" /> {""}
           <span className="text-gradient">Korean Style</span>
         </h1>
@@ -39,7 +39,7 @@ const Hero = () => (
       <h1
         className="font-poppins 
       font-semibold ss:text-[68px] text-[52px] 
-      text-white ss:leading-[100px] leading-[75px] w-full"
+      text-danger ss:leading-[100px] leading-[75px] w-full"
       >
         Experience
       </h1>

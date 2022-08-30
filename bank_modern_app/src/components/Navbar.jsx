@@ -12,14 +12,14 @@ const Navbar = () => {
       <img
         src={closed}
         alt="logo"
-        className="w-[400px] h-[200px] rounded-[25px] "
+        className="w-[120px] h-[60px] rounded-[25px] "
       />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer hover:text-secondary text-[16px] ${
+            className={`font-poppins font-normal cursor-pointer text-primary hover:text-secondary text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white mr-10`}
           >
